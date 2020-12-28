@@ -14,11 +14,11 @@ h1 {
 .verde {
     color: green;
 }
-*/
 
 p.verde {
     color: green;
 }
+*/
 
 /* Seletor de id 
 #cabecalho {
@@ -26,23 +26,71 @@ p.verde {
 }
 */
 
-/* Seletor de filho */
+/* Seletor de filho
 li>a {
     color: red;
     text-decoration: none;
 }
+*/
 
-/* Seletor de descendente */
+/* Seletor de descendente
 div a {
     color: hotpink;
 }
+*/
 
-/* Seletor de irmão adjascente */
+/* Seletor de irmão adjascente
 h1+p {
     color: red;
 }
+*/
 
-/* Seletor de irmão em geral */
+/* Seletor de irmão em geral
 h3~p {
     color: yellow;
+}
+*/
+
+/**************************************************************/
+/* Herança e especifidade */
+/*
+* {
+    color: red;
+    border: 1px solid blue;
+}
+
+body {
+    color: red;
+    border: 1px solid blue;
+}
+*/
+
+/*Especifidade (sobreposição)*/
+/*
+#pagina p {
+    color: blue !important;
+}
+
+#pagina p {
+    color: red;
+}
+*/
+
+/*Especifidade (específicação)*/
+/* Se um seletor for mais específico que outro a regra mais específica será aplicada (terá precedência sobre regras mais gerais)
+*/
+* {
+    color: red;
+}
+
+h2 { /* h2 é mais específico, pois está selecionando apenas o h1 */
+    color: blue;
+}
+
+h2#amarelo { /* id é mais específico que a class */
+    color: yellow;
+}
+
+h2.verde {
+    color: green;
 }
