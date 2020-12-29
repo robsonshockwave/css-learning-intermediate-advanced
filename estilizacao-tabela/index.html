@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estelizando tabelas</title>
+    <link rel="stylesheet" href="../css/estilizacao-tabela.css">
+</head>
+<body>
+    <h2>Estilizando tabelas</h2>
+    <table>
+        <thead>
+            <tr class="alternado">
+                <th>Código</th>
+                <th>Produto</th>
+                <th class="numero">Preço</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>Notebook</td>
+                <td class="numero">2.500</td>
+            </tr>
+            <tr class="alternado">
+                <td>002</td>
+                <td>Tablet</td>
+                <td class="numero">1.500</td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>iPhone</td>
+                <td class="numero">3.500</td>
+            </tr>
+            <tr class="alternado">
+                <td>004</td>
+                <td>Nexus</td>
+                <td class="numero">3.500</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="total">
+                <td colspan="2">Total</td>
+                <td class="numero">11.000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
