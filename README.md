@@ -17,5 +17,4 @@
     <li>Fontes customizadas
 </ul>
 
-<em>Feito com carinho! <strong>&lt;3</strong></em>
-<h6>by: Robson</h6>
+<h6>Feito com ♥ por Robson!</h6>
