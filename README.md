@@ -1,5 +1,5 @@
-# Conceitos de CSS
-<hr>
+## Conceitos de CSS
+
 <ul type="square">
     <li>Tipos de seletores
     <li>Herança e especifidade
